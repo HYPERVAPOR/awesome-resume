@@ -13,13 +13,13 @@ A personal resume project with GitHub contribution calendar integration.
 Before you begin, please ensure that a LaTeX compiler such as `pdflatex` is installed on your system.
 
 ### 📝 Step 1: Customize Your Resume  
-Edit the source file located at **`./src/cv.tex`** to tailor your resume content according to your preferences.
+Edit the source file located at **`./src/cv-zh.tex`** to tailor your resume content according to your preferences.
 
 ### 🔨 Step 2: Compile the LaTeX Source  
 Generate the PDF output by running the following command in your terminal:
 
 ```bash
-pdflatex -output-directory=dist ./src/cv.tex
+pdflatex -output-directory=dist ./src/cv-zh.tex
 ```
 
 ### 📁 Step 3: Locate the Output  
