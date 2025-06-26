@@ -1,0 +1,8 @@
+{
+	"dependencies": {
+		"puppeteer": "^24.10.2"
+	},
+	"scripts": {
+		"get": "node github-calendar/getGithubCalendarPng.js"
+	}
+}
