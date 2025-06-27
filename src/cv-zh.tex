@@ -9,6 +9,8 @@
 \usepackage{xcolor}
 \usepackage{times}
 \usepackage{graphicx}
+\usepackage[absolute,overlay]{textpos}
+
 
 % 页面设置
 \geometry{margin=1.5cm}
@@ -33,13 +35,18 @@
 
 % 标题部分
 \begin{center}
-    {\Huge\bfseries 刘哲宁\quad$|$\quad 硕士在读 \quad$|$\quad 随时到岗}
+    {\Huge\bfseries 刘哲宁\quad$|$\quad 在读 \quad$|$\quad 随时到岗}
 \end{center}
+
+% 个人照片
+\begin{textblock*}{5cm}(17cm, 0.2cm) % 在页面左上角右移10cm，下移5cm处放置图片
+    \includegraphics[width=1in]{../assets/profile.jpg}
+  \end{textblock*}
 
 % 个人信息
 \begin{center}
     {\songti 邮箱：}{\fontfamily{ptm}\selectfont \href{mailto:liuzhening_roeh@163.com}{liuzhening\_roeh@163.com}} \hspace{1em}
-    {\songti 电话：}{\fontfamily{ptm}\selectfont \href{tel:+86-18234357464}{+86 18234357464}} \hspace{1em}
+    {\songti 电话：}{\fontfamily{ptm}\selectfont \href{tel:+8618234357464}{+86 18234357464}} \hspace{1em}
     {\songti 微信：}{\fontfamily{ptm}\selectfont hyper\_vapor} \hspace{1em}
     {\songti 主页：}{\fontfamily{ptm}\selectfont \uline{\href{https://hyper-vapor.github.io}{点此预览}}}
 \end{center}
@@ -97,7 +104,7 @@
 % 项目经历
 {\heiti 项目经历}
 
-{\songti Prodlens \quad$|$\quad 最新AI产品数据分析与评测 \quad$|$\quad \uline{\href{https://prodlens.hypervapor.cloud}{点此预览}} \quad$|$\quad \uline{\href{https://github.com/HYPERVAPOR/prodlens}{Github仓库}}
+{\heiti Prodlens \quad$|$\quad 最新AI产品数据分析与评测 \quad$|$\quad \uline{\href{https://prodlens.hypervapor.cloud}{点此预览}} \quad$|$\quad \uline{\href{https://github.com/HYPERVAPOR/prodlens}{Github仓库}}
 
 \begin{itemize}[itemsep=0pt,parsep=0pt,topsep=0pt]
     \item {\songti 负责Prodlens的Web端开发，包括前端页面设计、开发和维护。}
