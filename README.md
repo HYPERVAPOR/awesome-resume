@@ -1,7 +1,7 @@
 # 🚀 Awesome Resume
 
 A personal resume project with GitHub contribution calendar integration.
-
+<img src="./assets/resume.png" alt="Resume Preview" width="400" style="display: block; margin: 40px auto;" />
 ## 📋 Table of Contents
 
 - [🚀 Getting Started](#getting-started)
