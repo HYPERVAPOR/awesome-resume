@@ -5,10 +5,14 @@ const fs = require('fs');
 async function captureGithubCalendar() {
   console.log('🚀 Start capturing GitHub contribution calendar...');
   
-  // Launch browser
+  // Launch browser with system Chrome
   const browser = await puppeteer.launch({
     headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    // 使用系统已安装的 Chrome
+    executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+    // 如果上面的路径不存在，可以尝试其他常见路径
+    // executablePath: 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
   });
   
   try {
